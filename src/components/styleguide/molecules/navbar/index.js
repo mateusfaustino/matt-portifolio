@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import Logo from "./Logo/index"
+import Logo from "./logo"
 import Menu from "./Menu/index"
 import Spacing from '../../atoms/spacing';
 import NavbarIcon from '../../atoms/navbarIcon';
