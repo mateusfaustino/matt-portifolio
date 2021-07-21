@@ -7,7 +7,7 @@ const StyledContainer = styled.div`
     align-items:center;
     height:100vh;
     
-    margin: 48px ${props=>props.margin};
+    margin: 50px ${props=>props.margin};
     
 
 `

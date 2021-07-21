@@ -4,7 +4,6 @@ const StyledContainer = styled.div`
     flex-direction:column;
     align-items:center;
     height:50vh;
-    margin-top: 48px;
     margin-bottom:32px;
     svg{
         width:auto;
