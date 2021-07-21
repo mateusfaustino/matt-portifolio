@@ -5,6 +5,7 @@ const StyledContainer = styled.div`
     align-items:center;
     height:50vh;
     margin-top: 48px;
+    margin-bottom:32px;
     svg{
         width:auto;
         height:100%;
