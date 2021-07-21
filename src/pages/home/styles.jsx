@@ -8,6 +8,7 @@ const StyledContainer = styled.div`
     height:100vh;
     
     margin: 48px ${props=>props.margin};
+    
 
 `
 

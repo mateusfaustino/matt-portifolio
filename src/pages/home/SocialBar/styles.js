@@ -10,6 +10,7 @@ export const Container = styled.ul`
     padding:4px 0;
     width:100%; 
     margin-top:16px;
+    max-width:700px;
 `
 export const Item = styled.li`
     svg{
