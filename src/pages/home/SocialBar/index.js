@@ -7,6 +7,9 @@ const SocialBar = (props) => {
   
   return(
         <Container>
+          <Item><FaGithub/></Item>
+          <Item><FaLinkedin/></Item>
+          <Item><FaWhatsapp/></Item>
         </Container>
     )
 }
