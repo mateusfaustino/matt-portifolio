@@ -6,10 +6,7 @@ const StyledContainer = styled.div`
     flex-direction:column;
     align-items:center;
     height:100vh;
-    
     margin: 50px ${props=>props.margin};
-    
-
 `
 
 const Container = (props)=>{
