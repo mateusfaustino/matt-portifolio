@@ -4,15 +4,17 @@ import GridLayout from '../components/styleguide/atoms/grid';
 export const SpacingContext = createContext()
 
 export default function  SpacingProvider ({children}) {
-    const newSpacing = new Spacing(7,'16px','10vw')
+    const newSpacing = new Spacing(7,'16px','24px')
     const [spacing,setSpacing] = useState(newSpacing)
+    const [maxWidth,setMaxWidth] = useState('700px')
     
     return(
         <SpacingContext.Provider 
             value={{
                 spacing,
                 setSpacing,
-                Grid
+                Grid,
+                maxWidth
             }}
         >
             {children}
@@ -30,6 +32,6 @@ export const Grid = ()=>{
 }
 export function useSpacing(){
     const context = useContext(SpacingContext);
-    const {spacing, setSpacing, Grid} = context;
-    return {spacing, setSpacing, Grid};
+    const {spacing, setSpacing, Grid,maxWidth} = context;
+    return {spacing, setSpacing, Grid,maxWidth};
 }

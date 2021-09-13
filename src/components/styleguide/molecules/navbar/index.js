@@ -8,6 +8,7 @@ import Nav,{NavWrapper} from './styles'
 import { useSpacing } from '../../../../contexts/SpacingContext';
 
 
+
 const Navbar = (props) => {
     const {scrollDirection} = useScreen()
     const [isActive,setIsActive]=useState(false);

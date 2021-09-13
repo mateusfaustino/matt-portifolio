@@ -5,15 +5,17 @@ const StyledContainer = styled.div`
     display:flex;
     flex-direction:column;
     align-items:center;
-    height:100vh;
-    margin: 50px ${props=>props.margin};
+    margin:auto;
+    
+    max-width: ${({maxWidth})=>maxWidth ||"none"}; 
+    padding: 54px ${({padding})=>padding ||0};
 `
 
 const Container = (props)=>{
-    const {spacing, Grid} = useSpacing()
+    const {spacing, maxWidth} = useSpacing()
     const margin = spacing.margin
     return(
-        <StyledContainer margin={margin}>
+        <StyledContainer maxWidth={maxWidth} padding={margin}>
             {props.children}
         </StyledContainer>
     )

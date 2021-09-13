@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body{
-    background: ${(props)=>props.theme=='dark'? palette.background.dark:palette.background.main};
+    background: ${(props)=>props.theme=='dark'? palette.background.dark:palette.background.light};
     color:${(props)=>props.theme=='dark'? palette.background.onDarkText:palette.background.onLightText};
     ${scroll}
   }

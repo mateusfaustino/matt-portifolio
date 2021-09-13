@@ -136,6 +136,46 @@ const scratched = (color) =>`
         font-size: 14px;
     }
 `
+const postTitle = `
+    color: #101619;
+    font-size: 2.2em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.2;
+    text-transform: none;
+    margin-bottom: .6rem;
+    font-family: "adelle-sans",Helvetica,sans-serif;
+    @media (min-width:${breakpoints.mobile}) {
+        
+    }
+`
+const postExcerpt = `
+    
+    
+    margin-top: .6em;
+    font-family: "adelle-sans",Helvetica,sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    font-size: 1.2em;
+    color: #6A6A6A;
+    margin-bottom: .6rem;
+    @media (min-width:${breakpoints.mobile}) {
+        
+    }
+`
+const postContent = `
+    color: #101619;
+    font-size: 1.15em;
+    line-height: 155%;
+    margin: 1em 0;
+    font-size: 18px;
+    font-weight: 300;
+    color:#424242;
+`
 
 const typographies = {
     header0: header_0,
@@ -151,7 +191,10 @@ const typographies = {
     small:small,
     smallBold:small_bold,
     smallScratched:scratched,
-    tinyItalic:tiny_italic
+    tinyItalic:tiny_italic,
+    postTitle:postTitle,
+    postExcerpt:postExcerpt,
+    postContent:postContent
 }
 
 export default typographies

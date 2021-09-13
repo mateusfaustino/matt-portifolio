@@ -4,6 +4,9 @@ import SpacingProvider from './contexts/SpacingContext'
  import Navbar from './components/styleguide/molecules/navbar'
  import Home from './pages/home/index'
  import ScreenProvider from './contexts/Screen'
+ 
+ import Post from './components/post'
+import post from './database/posts/1'
 const App = ()=>{
   return (
     <BrowserRouter>
@@ -13,6 +16,7 @@ const App = ()=>{
         <Navbar/>
           <Switch id='switchTag'>
             <Route path='/' exact component={Home}/>
+            <Route path='/post/:urlSlug' exact component={Post}/>
           </Switch>
         </SpacingProvider>
       </ScreenProvider>

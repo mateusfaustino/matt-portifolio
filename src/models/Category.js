@@ -10,3 +10,4 @@ export default class Category{
         )
     }
 }
+export const categoryMoldel = new Category;

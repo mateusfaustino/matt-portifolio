@@ -7,6 +7,8 @@ const StyledContainer = styled.div`
     justify-content: space-between;
     width:100%;
     max-width:700px;
+    padding: 0 ${({padding})=>padding ||0};
+
 `
 export const NavWrapper = styled.div`
     display: flex;
@@ -20,14 +22,15 @@ export const NavWrapper = styled.div`
     background:${props=>props.isActive? palette.primary.dark :palette.primary.main};
     transition:0.5s;
     transform: translateY(${props=>props.isDisplayed?`0`:'-52px'});
-    padding:2px ${props=>props.spacing.margin};
+    padding:2px 0;
 
 `
 
 const Nav = (props)=>{
     const { spacing } = useSpacing()
+    const margin = spacing.margin
     return(
-        <StyledContainer isActive={props.isActive} isDisplayed={props.isDisplayed} spacing={spacing}>
+        <StyledContainer padding={margin}  isActive={props.isActive} isDisplayed={props.isDisplayed} spacing={spacing}>
             {props.children}
         </StyledContainer>
     )
