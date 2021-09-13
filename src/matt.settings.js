@@ -74,21 +74,17 @@ const settings = {
     },
     'menu':[
         {
-            title:'about',
-            link:'/about'   
+            title:'Portifólio',
+            link:'/category/portifolio'   
         },
         {
-            title:'author',
-            link:'/author'   
+            title:'Estudos',
+            link:'/category/estudos'   
         },
         {
-            title:'settings',
-            link:'/settings'   
-        },
-        {
-            title:'other',
-            link:'/other'   
-        },
+            title:'Línguas',
+            link:'/category/linguas'   
+        }
     ],
   }
   
