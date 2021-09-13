@@ -1,20 +1,16 @@
 import React,{useEffect, useState, useContext} from "react";
 import Container from './styles'
-import Brand from './brand/index'
-import SocialBar from './SocialBar'
-import List from '../../components/posts-list/Main'
+import List from '../../components/posts-list/ListPerCategory'
 import { useSpacing } from "../../contexts/SpacingContext";
-import {categoryModel} from '../../models/Category'
 
-const Home = () => {
+
+const Category = () => {
     const {spacing, maxWidth} = useSpacing()
     const margin = spacing.margin
     return(
         <Container padding={margin} maxWidth={maxWidth}>
-            <Brand/>
-            <SocialBar/>
             <List />
         </Container>
     )
 }
-export default Home
+export default Category

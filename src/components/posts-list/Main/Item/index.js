@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link } from 'react-router-dom'
 import FeaturedMedia from "../../../FeaturedMedia";
+import { categoryModel } from "../../../../models/Category";
 //import { PostDate } from "../../../Date";
 
 /**
@@ -13,8 +14,9 @@ import FeaturedMedia from "../../../FeaturedMedia";
  */
 const Item = ({ post }) => {
   const author = 'Mateus Faustino';
-  //const category = state.source.category[item.categories[0]].name
+  const category = categoryModel.show(post.categories[0])
   const categoryLink = post.slug;
+  console.log("category: ",category);
   return (
     <Container to={"post/"+post.slug}>
       
@@ -22,7 +24,7 @@ const Item = ({ post }) => {
 
 
         <Category>
-          {/* {category} */}
+          {category.title}
         </Category>
       
         <Title dangerouslySetInnerHTML={{ __html: post.title }} />

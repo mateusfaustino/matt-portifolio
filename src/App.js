@@ -3,6 +3,7 @@ import {BrowserRouter,Route, Switch} from 'react-router-dom'
 import SpacingProvider from './contexts/SpacingContext'
  import Navbar from './components/styleguide/molecules/navbar'
  import Home from './pages/home/index'
+ import Categories from './pages/categories'
  import ScreenProvider from './contexts/Screen'
  
  import Post from './components/post'
@@ -17,6 +18,7 @@ const App = ()=>{
           <Switch id='switchTag'>
             <Route path='/' exact component={Home}/>
             <Route path='/post/:urlSlug' exact component={Post}/>
+            <Route path='/category/:urlSlug' exact component={Categories}/>
           </Switch>
         </SpacingProvider>
       </ScreenProvider>

@@ -34,7 +34,6 @@ const Post = () => {
             </DateWrapper>
           
          <Content dangerouslySetInnerHTML={{ __html: post.content }}/>
-          Html2React=(post.content)
         
       
       </Container>    

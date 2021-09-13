@@ -14,10 +14,8 @@ import image from '../../public/storage/featured-media/featured03.jpg'
     <p><br><em><strong>Art. 1º A República Federativa do Brasil, formada pela<br>união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem<br>como fundamentos:<br>I - a soberania;<br>II - a cidadania;<br>III - a dignidade da pessoa humana;<br>IV - os valores sociais do trabalho e da livre iniciativa;<br>V - o pluralismo político.<br>Parágrafo único. Todo o poder emana do povo, que o<br>exerce por meio de representantes eleitos ou diretamente,<br>nos termos desta Constituição.</strong></em></p>
     <!-- /wp:paragraph -->
     
-    <!-- wp:embed {"url":"https://youtu.be/JiQ3uhE57ik","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
-    <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-    https://youtu.be/JiQ3uhE57ik
-    </div><figcaption>prof. Diego Pureza, YouTube</figcaption></figure>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JiQ3uhE57ik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <!-- /wp:embed -->
     
     <!-- wp:paragraph -->

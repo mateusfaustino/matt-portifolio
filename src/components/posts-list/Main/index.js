@@ -9,8 +9,8 @@ const List = ({ state }) => {
   const {spacing,maxWidth} = useSpacing()
   const margin = spacing.margin
   const posts = postMoldel.index();
-  const post1 = postMoldel.showBySlug("react-fimrebase-app-lista-de-tarefas-to-do-list")
-  console.log("post: ",post1);
+  const post1 = postMoldel.indexByCategory(3);
+  console.log("posts pos categoria: ",post1);
   return (
     <Container margin={margin} maxWidth={maxWidth}>
       

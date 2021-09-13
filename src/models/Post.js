@@ -1,17 +1,23 @@
 import posts from '../database/posts'
-export default class Post{
+import Model from './Model';
+export default class Post extends Model{
 
     constructor(){
-        this.posts=posts;        
+        super()       
+        this.posts=posts;
     }
-    index(){
-        return (
-            this.posts
-        )
+    
+    index() {
+      return  this.posts;
+    }
+
+    indexByCategory(categoryId){
+        const posts = this.posts.filter(post=>(post.categories[0] == categoryId))
+        return posts
     }
     showBySlug(slug){
-       let post = this.posts.filter(post=>(post.slug == slug))
-        return post[0]
+        const posts = this.filterBy(this.posts,'slug',slug);
+        return posts[0]
     }
 }
 export const postMoldel = new Post;
