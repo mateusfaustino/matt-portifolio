@@ -9,8 +9,7 @@ const List = ({ state }) => {
   const {spacing,maxWidth} = useSpacing()
   const margin = spacing.margin
   const posts = postMoldel.index();
-  const post1 = postMoldel.indexByCategory(3);
-  console.log("posts pos categoria: ",post1);
+ 
   return (
     <Container margin={margin} maxWidth={maxWidth}>
       

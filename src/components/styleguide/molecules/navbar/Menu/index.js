@@ -7,7 +7,7 @@ const Menu = (props) => {
         <Container active={props.isActive} >
             {menu.map((item,index)=>{
                 return(
-                    <Item to={item.link} key={index}>
+                    <Item to={item.link} key={index} onClick={props.setIsActive}>
                         {item.title}
                     </Item>
                 )

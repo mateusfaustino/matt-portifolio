@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom'
 import FeaturedMedia from "../../../FeaturedMedia";
 import { categoryModel } from "../../../../models/Category";
+import { palette } from "../../../styleguide/atoms/colors";
 //import { PostDate } from "../../../Date";
 
 /**
@@ -18,7 +19,7 @@ const Item = ({ post }) => {
   const categoryLink = post.slug;
   console.log("category: ",category);
   return (
-    <Container to={"post/"+post.slug}>
+    <Container to={"/post/"+post.slug}>
       
         <FeaturedMedia post={post} />
 
@@ -109,6 +110,7 @@ const PublishDate = styled.span`
 const Excerpt = styled.div`
   grid-area: excerpt;
   line-height: 1.6em;
+  font-weight:bold;
   color: rgba(12, 17, 43, 0.8);
 `;
 const Details = styled.div`
@@ -128,6 +130,6 @@ const Container = styled(Link)`
     ; 
     grid-template-columns: 100%;
     gap:4px;
-  border-bottom: 1px solid #cacaca;
+  border-bottom: 1px solid ${palette.primary.main};
   
 `

@@ -3,16 +3,13 @@ import Item from "../Main/Item";
 import { useSpacing } from "../../../contexts/SpacingContext";
 import {Header, Container} from './styles'
 import { postMoldel } from "../../../models/Post";
-import { categoryModel } from "../../../models/Category";
-import {useParams} from "react-router-dom";
-import Category from "../../../pages/categories";
 
-const List = ({ state }) => {
+const List = ({ category }) => {
   // Get the data of the current list.
-  let { urlSlug } = useParams();
+  
   const {spacing,maxWidth} = useSpacing()
   const margin = spacing.margin
-  const category = categoryModel.showBySlug(urlSlug);
+  
   const posts = postMoldel.indexByCategory(category.id);
   console.log("category by slug: ", category);
   return (

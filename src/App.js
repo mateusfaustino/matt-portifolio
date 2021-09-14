@@ -5,6 +5,7 @@ import SpacingProvider from './contexts/SpacingContext'
  import Home from './pages/home/index'
  import Categories from './pages/categories'
  import ScreenProvider from './contexts/Screen'
+ import Footer from './components/styleguide/molecules/footer'
  
  import Post from './components/post'
 import post from './database/posts/1'
@@ -20,6 +21,7 @@ const App = ()=>{
             <Route path='/post/:urlSlug' exact component={Post}/>
             <Route path='/category/:urlSlug' exact component={Categories}/>
           </Switch>
+          <Footer/>
         </SpacingProvider>
       </ScreenProvider>
     </BrowserRouter>
