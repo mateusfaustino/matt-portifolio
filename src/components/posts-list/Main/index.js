@@ -9,10 +9,10 @@ const List = ({ state }) => {
   const {spacing,maxWidth} = useSpacing()
   const margin = spacing.margin;
   let { pageNumber } = useParams();
-  var page=0;
-  if(pageNumber) page=pageNumber;
 
-  const posts = postMoldel.index(2,page);
+  if(pageNumber) postMoldel.setPage(pageNumber);
+
+  const posts = postMoldel.index(2);
   if(posts.length<=0){
     return(
       <Container margin={margin} maxWidth={maxWidth}>
