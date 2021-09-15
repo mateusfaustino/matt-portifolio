@@ -19,6 +19,7 @@ const App = ()=>{
           <Switch id='switchTag'>
             <Route path='/' exact component={Home}/>
             <Route path='/post/:urlSlug' exact component={Post}/>
+            <Route path='/page/:pageNumber' exact component={Home}/>
             <Route path='/category/:urlSlug' exact component={Categories}/>
           </Switch>
           <Footer/>

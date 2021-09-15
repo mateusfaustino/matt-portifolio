@@ -7,8 +7,17 @@ export default class Post extends Model{
         this.posts=posts;
     }
     
-    index() {
-      return  this.posts;
+    index(number, page) {
+        var selected_posts=[];
+        var firstPost = number*page;
+        var lastPost = firstPost+number-1;
+        for (let index = firstPost; index <=lastPost; index++) {
+            if(this.posts[index]){
+                selected_posts.push(this.posts[index]);
+            }   
+        }
+        
+        return  selected_posts;
     }
 
     indexByCategory(categoryId){
