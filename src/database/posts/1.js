@@ -34,25 +34,26 @@ import image from '../../public/storage/featured-media/feartued1.png'
     
     <p>Se o usuário não estiver logado na conta, aparecerá uma tela de login. </p>
     
-    <figure class="wp-block-image size-large"><img src="https://mateusfaustino.com.br/wp-content/uploads/2021/08/blog-4-1024x576.png" alt="" class="wp-image-480"/></figure>
-    
+    <figure class="wp-block-image size-large"><img src="https://kulucunay.files.wordpress.com/2021/09/react-firebase-app-lista-de-tarefas-to-do-list01.png?w=1024" alt="" class="wp-image-45"/></figure>
+
     <h2>Tela principal</h2>
     
     <p>Ao se logar, o usuário se deparará com uma tela em branco com um botão para que ele possa adicionar suas primeiras tarefas.</p>
     
-    <figure class="wp-block-image size-large"><img src="https://mateusfaustino.com.br/wp-content/uploads/2021/08/blog-5-1024x576.png" alt="" class="wp-image-482"/></figure>
+    <figure class="wp-block-image size-large"><img src="https://kulucunay.files.wordpress.com/2021/09/react-firebase-app-lista-de-tarefas-to-do-list02.png?w=1024" alt="" class="wp-image-47"/></figure>
     
     <p>Ao clicar no botão, o usuário terá acesso à um modal flutuante, onde ele pode adicionar a nova tarefa.</p>
     
-    <figure class="wp-block-image size-large"><img src="https://mateusfaustino.com.br/wp-content/uploads/2021/08/blog-6-1024x576.png" alt="" class="wp-image-484"/></figure>
+    <figure class="wp-block-image size-large"><img src="https://kulucunay.files.wordpress.com/2021/09/react-firebase-app-lista-de-tarefas-to-do-list03.png?w=1024" alt="" class="wp-image-49"/></figure>
     
     <p>Na medida em que o usuário vai adicionando tarefas, as podem ser visualizadas na tela principal.</p>
     
-    <figure class="wp-block-image size-large"><img src="https://mateusfaustino.com.br/wp-content/uploads/2021/08/blog-7-1024x576.png" alt="" class="wp-image-486"/></figure>
-    
+    <figure class="wp-block-image size-large"><img src="https://kulucunay.files.wordpress.com/2021/09/react-firebase-app-lista-de-tarefas-to-do-list04.png?w=1024" alt="" class="wp-image-51"/></figure>
+
     <p>Ao clicar na caixa (check-box) o usuário pode marcar a tarefa como feita. Então, para diferenciá-la das demais tarefas, sua cor mudará, indicando que já foi concluída. O usuário pode ainda excluir a tarefa ao clicar no ícone da lixeira.</p>
     
-    <figure class="wp-block-image size-large"><img src="https://mateusfaustino.com.br/wp-content/uploads/2021/08/blog-8-1024x576.png" alt="" class="wp-image-489"/></figure>
+    <figure class="wp-block-image size-large"><img src="https://kulucunay.files.wordpress.com/2021/09/react-firebase-app-lista-de-tarefas-to-do-list05.png?w=1024" alt="" class="wp-image-53"/></figure>
+
     `
 const post ={
     id:'1',

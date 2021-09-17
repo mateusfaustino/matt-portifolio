@@ -36,7 +36,7 @@ import image from '../../public/storage/featured-media/featured2.png'
     <!-- /wp:paragraph -->
     
     <!-- wp:image {"id":326,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="http://mateusfaustino.com.br/wp-content/uploads/2021/08/blog-3-1024x576.png" alt="" class="wp-image-326"/></figure>
+    <figure class="wp-block-image size-large"><img src="https://kulucunay.files.wordpress.com/2021/09/blog-3-1024x576-1.png?w=1024" alt="" class="wp-image-57"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading -->

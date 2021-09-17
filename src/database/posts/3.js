@@ -51,9 +51,7 @@ import image from '../../public/storage/featured-media/featured03.jpg'
     <!-- /wp:paragraph -->
     
     <!-- wp:embed {"url":"https://youtu.be/c3mjvCfwRxc","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
-    <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-    https://youtu.be/c3mjvCfwRxc
-    </div><figcaption>Canal Brasil Escola, YouTube</figcaption></figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/c3mjvCfwRxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><figcaption>Canal Brasil Escola, YouTube</figcaption></figure>
     <!-- /wp:embed -->
     
     <!-- wp:heading -->
@@ -65,8 +63,7 @@ import image from '../../public/storage/featured-media/featured03.jpg'
     <!-- /wp:paragraph -->
     
     <!-- wp:embed {"url":"https://youtu.be/aO-tdxH5Vy4","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
-    <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-    https://youtu.be/aO-tdxH5Vy4
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aO-tdxH5Vy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div><figcaption>Tassio Denker, YouTube</figcaption></figure>
     <!-- /wp:embed -->
     
@@ -103,15 +100,11 @@ import image from '../../public/storage/featured-media/featured03.jpg'
     <!-- /wp:paragraph -->
     
     <!-- wp:embed {"url":"https://youtu.be/DTCmONDcqWo","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
-    <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-    https://youtu.be/DTCmONDcqWo
-    </div><figcaption>EAD Atene</figcaption></figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DTCmONDcqWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <!-- /wp:embed -->
     
     <!-- wp:embed {"url":"https://youtu.be/mxco4g319Zg","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
-    <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-    https://youtu.be/mxco4g319Zg
-    </div><figcaption>Gran Cursos Online</figcaption></figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mxco4g319Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <!-- /wp:embed -->
     
     <!-- wp:heading -->

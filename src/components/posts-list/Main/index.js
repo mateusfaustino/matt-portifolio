@@ -12,7 +12,7 @@ const List = ({ state }) => {
 
   if(pageNumber) postMoldel.setPage(pageNumber);
 
-  const posts = postMoldel.index(2);
+  const posts = postMoldel.index(10);
   if(posts.length<=0){
     return(
       <Container margin={margin} maxWidth={maxWidth}>
